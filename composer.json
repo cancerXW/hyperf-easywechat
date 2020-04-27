@@ -1,0 +1,26 @@
+{
+  "name": "root/hyperf-esaywechat",
+  "require": {
+    "php": ">=7.2",
+    "ext-swoole": ">=4.4",
+    "overtrue/wechat": "4.1",
+    "hyperf/guzzle": "^1.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wang",
+      "email": "513972422@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "HyPerfEasyWeChat\\": "src/"
+    },
+    "files": []
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.0"
+  }
+}

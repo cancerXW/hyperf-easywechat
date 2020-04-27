@@ -1,2 +1,2 @@
-# hyperf-esaywechat
-esaywechat hyperf版本
+# hyperf-easywechat
+easywechat hyperf版本
