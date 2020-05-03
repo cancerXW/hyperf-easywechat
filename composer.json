@@ -1,5 +1,5 @@
 {
-  "name": "cancerxw/hyperf-esaywechat",
+  "name": "cancerxw/hyperf-easywechat",
   "require": {
     "php": ">=7.2",
     "ext-swoole": ">=4.4",
