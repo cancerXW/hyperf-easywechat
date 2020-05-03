@@ -2,11 +2,12 @@
 
 namespace HyPerfEasyWeChat\Kernel\Providers;
 
+use EasyWeChat\Kernel\Providers\HttpClientServiceProvider as ServiceProvider;
 
+use HyPerfEasyWeChat\HttpFoundation\Request;
 use Pimple\Container;
-use Symfony\Component\HttpFoundation\Request;
 
-class RequestServiceProvider
+class RequestServiceProvider extends ServiceProvider
 {
     /**
      * Registers services on the given container.
@@ -19,7 +20,7 @@ class RequestServiceProvider
     public function register(Container $pimple)
     {
         $pimple['request'] = function () {
-            return Request::createFromGlobals();
+            return Request::createHyPerfFromGlobals();
         };
     }
 }

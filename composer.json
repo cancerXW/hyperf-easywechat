@@ -4,9 +4,11 @@
     "php": ">=7.2",
     "ext-swoole": ">=4.4",
     "overtrue/wechat": "4.1",
-    "hyperf/guzzle": "^1.1"
+    "hyperf/guzzle": "^1.1",
+    "hyperf/utils": "^1.1@dev",
+    "hyperf/http-server": "^1.1@dev"
   },
-  "version": "0.0.1@dev",
+  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
